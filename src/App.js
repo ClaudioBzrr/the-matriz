@@ -1,25 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Routes from './routes';
+import matrix from './assets/matrix.mp4'
+import './global.css'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <video autoPlay muted loop playsInline>
+      <source src={matrix} type="video/mp4"/>
+    </video>
+    <Routes/>
     </div>
+
   );
 }
 
