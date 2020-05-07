@@ -1,0 +1,48 @@
+.sobreDiv{
+    margin-top: 200px;
+    height: 100%;
+}
+.grid{
+    color: rgb(9, 226, 9);
+    display: grid;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.bio{
+    background-color: rgba(9,226,9, 0.12);
+    width: 1000px;
+    height: 400px;
+    font-size: 30px;
+}
+
+.autor{
+    margin:30px;
+ 
+}
+
+.autores{
+    text-align: center;
+}
+
+
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+    color: rgb(9, 226, 9);
+}
+
+.git{
+    margin:8%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.repo{
+    border-bottom: 1px rgb(9, 226, 9) solid;
+}
