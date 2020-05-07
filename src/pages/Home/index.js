@@ -8,6 +8,8 @@ import fim from '../../assets/fim.JPG'
 import Awesomeslider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css'
 import './styles.css'
+import pdf from '../../assets/the-matriz.pdf'
+import {FiDownload} from 'react-icons/fi'
 
 
 
@@ -19,14 +21,16 @@ export default function Home(){
             <Header/>
             <div className="content">
                 <Awesomeslider>
-                    <div className="sliders" data-src={scene01}/>
-                    <div className="sliders" data-src={scene02}/>
-                    <div className="sliders" data-src={scene03}/>
-                    <div className="sliders" data-src={scene04}/>
-                    <div className="sliders" data-src={fim}/>
+                    <div className="sliders lozad" data-src={scene01}/>
+                    <div className="sliders lozad" data-src={scene02}/>
+                    <div className="sliders lozad" data-src={scene03}/>
+                    <div className="sliders lozad" data-src={scene04}/>
+                    <div className="sliders lozad" data-src={fim}/>
                 </Awesomeslider>
+               
             </div>
-            
+            <a className="download" href={pdf} download="the-matriz" ><FiDownload size={20} color="#92269"/>Download</a>
+            <div className="mobile">Arraste para passar a página</div>
         </div>
     )
 }

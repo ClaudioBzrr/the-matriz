@@ -47,7 +47,7 @@ a:active{
     border-bottom: 1px rgb(9, 226, 9) solid;
 }
 
-@media(max-width:1040px){
+@media(max-width:800px){
     .sobreDiv{
         margin-top: 50%;
     }
