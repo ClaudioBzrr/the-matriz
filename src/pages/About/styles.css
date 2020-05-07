@@ -46,3 +46,59 @@ a:active{
 .repo{
     border-bottom: 1px rgb(9, 226, 9) solid;
 }
+
+@media(max-width:1040px){
+    .sobreDiv{
+        margin-top: 50%;
+    }
+    .grid{
+        display: grid;
+        color: rgb(9, 226, 9);
+        display: grid;
+        height:400px;
+        width: 100%;
+        
+    }
+    
+    .bio{
+
+
+        background-color: rgba(9,226,9, 0.12);
+        width: 300px;
+        height: 300px;
+        font-size: 15px;
+
+    }
+    
+    .autor{
+        margin:15px;
+     
+    }
+    
+    .autores{
+
+
+        text-align: center;
+    }
+    
+    
+    
+    a:link,
+    a:visited,
+    a:hover,
+    a:active{
+        text-decoration: none;
+        color: rgb(9, 226, 9);
+    }
+    
+    .git{
+        margin:8%;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .repo{
+        border-bottom: 1px rgb(9, 226, 9) solid;
+    }
+    
+}

@@ -1,7 +1,7 @@
 .main{
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 8%;
     justify-content: center;
 }
 
@@ -51,6 +51,64 @@
 }
 
 
-.load{
-    display: none;
+
+@media(max-width:1040px){
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50%;
+        justify-content: center;
+    }
+    
+    .content{
+        width: 300px;
+        height: 304px;
+        align-self: center;
+        border: solid 2px rgb(9, 226, 9);
+        border-radius: 7px;
+    }
+    
+    .awssld{
+        height: 400px;
+    }
+    
+    .awssld__content{
+    
+        width: 300px;
+        height: 304px;
+    
+    }
+    
+    .awssld__content >img{
+        max-width: 300px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+    }
+    
+    .awssld__controls__arrow-left::before{
+        background-color: rgb(9, 226, 9) ;
+    
+    }
+    
+    .awssld__controls__arrow-left::after{
+       background-color: rgb(9, 226, 9) ;
+    }
+    
+    .awssld__controls__arrow-right::before{
+        background-color: rgb(9, 226, 9) ;
+    
+    }
+    
+    .awssld__controls__arrow-right::after{
+       background-color: rgb(9, 226, 9) ;
+    }
+    
+    .awssld__bullets{
+        display: none;
+    }
+    
+
+
 }

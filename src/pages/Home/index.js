@@ -12,7 +12,7 @@ import './styles.css'
 
 
 
-export default function About(){
+export default function Home(){
     return(
         
         <div className="main">

@@ -46,3 +46,32 @@ a:active
 text-decoration: none;
 color: inherit;
 }
+
+
+@media(max-width:1040px){
+    
+    .header{
+        width: 100%;
+        font-size:20px;
+        
+    }
+
+    .titulo{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        padding-right: 0;
+
+    }
+
+    .sobre{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        font-size:15px;
+    }
+
+
+}

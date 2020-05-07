@@ -7,7 +7,7 @@ import './global.css'
 
 function App() {
   return (
-    <div>
+    <div className="video">
     <video autoPlay muted loop playsInline>
       <source src={matrix} type="video/mp4"/>
     </video>
