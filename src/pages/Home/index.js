@@ -1,5 +1,4 @@
 import React from 'react'
-import loading from '../../assets/now-loading.gif'
 import Header from '../../components/Header'
 import scene01 from '../../assets/scene01.jpg'
 import scene02 from '../../assets/scene02.jpg'
@@ -11,20 +10,12 @@ import 'react-awesome-slider/dist/styles.css'
 import './styles.css'
 
 
-function load(){
-    let load = document.querySelector('.load')
-    load.style.display = 'block'
-}
 
-window.addEventListener('DomContentLoaded',function(){
-    load()
-})
 
 export default function About(){
     return(
         
         <div className="main">
-            <div className="load"> <img src={loading} alt="" srcset=""/></div>
             <Header/>
             <div className="content">
                 <Awesomeslider>
