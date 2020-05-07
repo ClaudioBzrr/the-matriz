@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../../components/Header'
-import scene01 from '../../assets/scene01.PNG'
-import scene02 from '../../assets/scene02.PNG'
-import scene03 from '../../assets/scene03.PNG'
+import scene01 from '../../assets/scene01.jpg'
+import scene02 from '../../assets/scene02.jpg'
+import scene03 from '../../assets/scene03.jpg'
 import Awesomeslider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css';
 import './styles.css'
